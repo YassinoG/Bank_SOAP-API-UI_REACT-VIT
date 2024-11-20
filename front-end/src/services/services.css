@@ -1,0 +1,114 @@
+/* General container styling for forms */
+.form-container {
+  width: 100%;
+  max-width: 420px;
+  padding: 24px;
+  background-color: #1f2937; /* Dark gray background */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 40px auto;
+  align-items: center;
+}
+
+/* Form header styling */
+.form-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff; /* White text for contrast */
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+/* General form styling */
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+/* Label styling */
+.form-container label {
+  font-size: 14px;
+  color: #d1d5db; /* Light gray for subtle contrast */
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+/* Input field styling */
+.form-container input {
+  padding: 12px 14px;
+  border: 1px solid #374151; /* Dark gray border */
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #111827; /* Very dark gray */
+  color: #ffffff; /* White text */
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.form-container input:focus {
+  border-color: #3b82f6; /* Bright blue for focus */
+  background-color: #1e293b; /* Slightly lighter gray */
+  box-shadow: 0 0 8px rgba(59, 130, 246, 0.5); /* Blue glow */
+  outline: none;
+}
+
+/* Button styling */
+.form-container button {
+  padding: 12px 14px;
+  background-color: #3b82f6; /* Bright blue */
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #2563eb; /* Darker blue */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(37, 99, 235, 0.4); /* Blue shadow */
+}
+
+/* Message styling (success or error) */
+.form-container p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.form-container p.success {
+  color: #10b981; /* Green for success */
+}
+
+.form-container p.error {
+  color: #ef4444; /* Red for error */
+}
+
+/* Account details styling */
+.account-details {
+  padding: 16px;
+  background-color: #374151; /* Dark gray */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.account-details div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #d1d5db; /* Light gray */
+  margin-bottom: 10px;
+}
+
+.account-details div strong {
+  color: #3b82f6; /* Blue for highlights */
+  font-weight: bold;
+}
